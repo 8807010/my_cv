@@ -1,12 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shotcut icob" href="./images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fruktur&family=Montserrat:wght@400;700;900&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
     <title>My resume</title>
 </head>
+
 <body>
-    
+    <div class="wrapper">
+        <aside class="sidebar">
+            <img class="siedebar__photo" src="./images/foto.jpg" alt="My photo">
+
+            <div class="siedebar__info">
+                <div class="siedebar__contact contact">
+                    <h3 class="siedebar__title">Contact</h3>
+
+                    <ul class="contact__list">
+                        <li class="contact__item">
+                            <img class="contact__address-icon contact-icon" src="./images/contact-icons/icon-gps.png"
+                                alt="address">
+                            <a class="contact__link" href="geo:53.897582, 25.283795">Belarus, Lida</a>
+                        </li>
+
+                        <li class="contact__item">
+                            <img class="contact__phone-icon contact-icon" src="./images/contact-icons/icon-phone.png"
+                                alt="phone">
+                            <a class="contact__link" href="tel:375298807010">+375 29 880 70 10</a>
+                        </li>
+
+                        <li class="contact__item">
+                            <img class="contact__email-icon contact-icon" src="./images/contact-icons/icon-email.png"
+                                alt="email">
+                            <a class="contact__link" href="mailto:asokolik87@gmail.com">asokolik87@gmail.com</a>
+                        </li>
+
+                        <li class="contact__item">
+                            <img class="contact__github-icon contact-icon" src="./images/contact-icons/icon-github.png"
+                                alt="github">
+                            <a class="contact__link" href="https://github.com/8807010">https://github.com/8807010</a>
+                        </li>
+
+                        <li class="contact__item">
+                            <img class="contact__linkedin-icon contact-icon"
+                                src="./images/contact-icons/icon-linkedin.png" alt="linkedin">
+                            <a class="contact__link"
+                                href="https://www.linkedin.com/in/artiom-sokolov-975564207/">www.linkedin.com/artiom-sokolov-975564207</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="siedebar__tech tech">
+                    <h3 class="siedebar__title">Tech Skills</h3>
+
+                    <ul class="tech__list list">
+                        <li class="tech__item item">HTML</li>
+                        <li class="tech__item item">CSS3</li>
+                        <li class="tech__item item">SASS (SCSS)</li>
+                        <li class="tech__item item">GIT</li>
+                        <li class="tech__item item">GULP</li>
+                        <li class="tech__item item">FLEXBOX</li>
+                        <li class="tech__item item">GRID LAYOUT</li>
+                        <li class="tech__item item">SVG</li>
+                        <li class="tech__item item">BEM NAMING</li>
+                        <li class="tech__item item">TWIG</li>
+                    </ul>
+                </div>
+
+                <div class="siedebar__skills skills">
+                    <h3 class="siedebar__title">Soft Skills</h3>
+
+                    <ul class="skills__list list">
+                        <li class="skills__item item">responsibility</li>
+                        <li class="skills__item item">flexibility</li>
+                        <li class="skills__item item">communication</li>
+                        <li class="skills__item item">planning</li>
+                        <li class="skills__item item">research</li>
+                        <li class="skills__item item">teamwork</li>
+                        <li class="skills__item item">sociability</li>
+                    </ul>
+                </div>
+
+                <div class="siedebar__hobbies hobbies">
+                    <h3 class="siedebar__title">Hobbies</h3>
+
+                    <ul class="hobbies__list list">
+                        <li class="hobbies__item item">CARS</li>
+                        <li class="hobbies__item item">MUSIC</li>
+                        <li class="hobbies__item item">TRAVELING</li>
+                        <li class="hobbies__item item">MARVEL/DC</li>
+                        <li class="hobbies__item item">READING</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+
+
+
+
+
+
+
+        <main class="main">
+
+            <div class="main__contact">
+                <h2 class="main__profession">Web-Developer/HTML-Developer</h2>
+                <h1 class="main__name">Artiom Sokolov</h1>
+            </div>
+
+            <div class="main__about">
+                <div class="main__title-container">
+                    <img class="main__title-img" src="./images/main-icon/icon-about.png" alt="About me">
+                    <h3 class="main__title">About me</h3>
+                </div>
+                <p class="main__description">
+                    Experience in creating applications with HTML, CSS, JS. I'm always looking forward to improve my
+                    expertise. Mainly interested in site layout technologies, I've started getting familiar with JS and
+                    React lately and got drawn into it. So I strive to expand my competence. Open for your suggestions.
+                </p>
+            </div>
+
+            <div class="main__educacion educacion">
+                <div class="main__title-container">
+                    <img class="main__title-img" src="./images/main-icon/icon-educacion.png" alt="Education">
+                    <h3 class="main__title">Education</h3>
+                </div>
+                <ul class="educacion__list">
+                    <li class="educacion__item">
+                        <p class="educacion__university">IT-INCUBATOR</p>
+                        <span class="educacion__year">2020-2021</span>
+                        <span class="educacion__faculty">HTML-DEVELOPER</span>
+                    </li>
+
+                    <li class="educacion__item">
+                        <p class="educacion__university">UNIVERSITY OF BIALYSTOK</p>
+                        <span class="educacion__year">2013 - 2017</span>
+                        <span class="educacion__faculty">INSTITUTE OF CULTURE STUDIES</span>
+                    </li>
+
+                    <li class="educacion__item">
+                        <p class="educacion__university">UNIVERSITY OF BIALYSTOK</p>
+                        <span class="educacion__year">2008 - 2012</span>
+                        <span class="educacion__faculty">FACULTY OF EDUCATION</span>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="main__experience">
+                <div class="main__title-container">
+                    <img class="main__title-img" src="./images/main-icon/icon-experience.png" alt="Experience">
+                    <h3 class="main__title">Experience</h3>
+                </div>
+                <ul class="experience__list">
+                    <li class="experience__item">
+                        <p class="experience__work">FREELANCE</p>
+                        <span class="experience__year">2020 - I'm in this job right now</span>
+                        <span class="experience__position">HTML-Developer</span>
+                    </li>
+                    <li class="experience__item">
+                        <p class="experience__work">BELMEDPREPARATY</p>
+                        <span class="experience__year">2008 - I'm in this job right now</span>
+                        <span class="experience__position">Equipment adjuster</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="main__skills">
+                <div class="main__title-container">
+                    <img class="main__title-img" src="./images/main-icon/icon-skills.png" alt="Successes">
+                    <h3 class="main__title">Successes</h3>
+                </div>
+                <div class="main__skills-container">
+                    <img class="main__skills-img" src="./images/successes/figma.png" alt="certificate-figma">
+                    <img class="main__skills-img" src="./images/successes/html.png" alt="certificate-html">
+                    <img class="main__skills-img" src="./images/successes/js-starter.png" alt="certificate-js">
+                </div>
+
+            </div>
+        </main>
+    </div>
 </body>
+
 </html>

@@ -1,0 +1,256 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f7fa;
+  padding: 40px 20px;
+  font-family: "Montserrat", sans-serif;
+  min-width: 320px;
+  color: #3a3939;
+}
+
+.wrapper {
+  background: #fff;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar {
+  background: #91b9d8;
+  max-width: 400px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.siedebar__photo {
+  width: 400px;
+}
+
+.siedebar__info {
+  padding: 60px 30px;
+}
+
+.siedebar__title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 110%;
+  color: #fff;
+  text-align: center;
+  background-color: #30596b;
+  padding: 10px;
+  max-width: 220px;
+  margin: 0 auto;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.siedebar__contact {
+  margin-bottom: 50px;
+}
+
+.siedebar__tech {
+  margin-bottom: 50px;
+}
+
+.siedebar__skills {
+  margin-bottom: 50px;
+}
+
+.sidebar__container {
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.contact-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.contact__list {
+  list-style-type: none;
+}
+
+.contact__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.contact__link {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 170%;
+  color: #3a3939;
+  text-decoration: none;
+  display: flex;
+}
+
+.item {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 170%;
+  color: #3a3939;
+  background-image: url("./images/icon-done.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 15px;
+  padding-left: 25px;
+  text-transform: uppercase;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.main {
+  padding: 90px 110px;
+}
+
+.main__contact {
+  margin-bottom: 60px;
+}
+
+.main__profession {
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 170%;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.main__name {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 200%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.main__description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 155%;
+}
+
+.main__about {
+  margin-bottom: 60px;
+}
+
+.main__title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+
+.educacion__item {
+  list-style-type: disclosure-closed;
+  margin-left: 20px;
+}
+
+.educacion__item:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.educacion__university {
+  color: #30596b;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 140%;
+  margin-bottom: 10px;
+  letter-spacing: 0.2px;
+}
+
+.educacion__year {
+  display: block;
+  margin-bottom: 6px;
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 140%;
+  margin-left: -20px;
+}
+
+.educacion__faculty {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  margin-left: -20px;
+}
+
+.main__educacion {
+  margin-bottom: 60px;
+}
+
+.main__experience {
+  margin-bottom: 60px;
+}
+
+.experience__item {
+  list-style-type: disclosure-closed;
+  margin-left: 20px;
+}
+
+.experience__item:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.experience__work {
+  color: #30596b;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 140%;
+  margin-bottom: 10px;
+  letter-spacing: 0.2px;
+}
+
+.experience__year {
+  display: block;
+  margin-bottom: 6px;
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 140%;
+  margin-left: -20px;
+}
+
+.experience__position {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  margin-left: -20px;
+}
+
+.main__title-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.main__title-img {
+  width: 46px;
+  margin-right: 16px;
+}
+
+.main__skills-container {
+display: flex;
+flex-wrap: wrap;
+
+}
+
+
+.main__skills-img {
+width: 50%;
+padding: 5px;
+}
+
