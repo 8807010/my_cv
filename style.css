@@ -20,7 +20,7 @@ body {
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 
-.sidebar {
+.siedebar {
   background: #91b9d8;
   max-width: 400px;
   padding-top: 40px;
@@ -29,6 +29,7 @@ body {
 
 .siedebar__photo {
   width: 400px;
+  max-width: 100%;
 }
 
 .siedebar__info {
@@ -62,7 +63,7 @@ body {
   margin-bottom: 50px;
 }
 
-.sidebar__container {
+.siedebar__container {
   margin-top: 60px;
   margin-left: 40px;
   margin-right: 40px;
@@ -94,6 +95,10 @@ body {
   display: flex;
 }
 
+.main__contact-siedebar {
+  display: none;
+}
+
 .item {
   font-size: 14px;
   font-weight: 700;
@@ -123,7 +128,7 @@ body {
   font-size: 14px;
   font-weight: 900;
   line-height: 170%;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -243,14 +248,102 @@ body {
 }
 
 .main__skills-container {
-display: flex;
-flex-wrap: wrap;
-
+  display: flex;
+  flex-wrap: wrap;
 }
-
 
 .main__skills-img {
-width: 50%;
-padding: 5px;
+  width: 50%;
+  padding: 5px;
 }
 
+@media (max-width: 1160px) {
+  .main {
+    padding: 35px 50px;
+  }
+  .main__name {
+    line-height: 120%;
+  }
+  .main__skills-img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .siedebar {
+    max-width: 100%;
+    background-color: #fff;
+    padding-bottom: 0;
+  }
+  .main__contact {
+    display: none;
+  }
+  .siedebar__photo {
+    display: flex;
+    margin: 0 auto;
+  }
+  .main__contact-siedebar {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .siedebar__info {
+    padding: 30px 30px 0 30px;
+  }
+  .main__profession {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .main {
+    padding: 0px 30px 30px;
+  }
+  .siedebar__title {
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    max-width: 180px;
+  }
+  .siedebar__contact,
+  .siedebar__tech,
+  .siedebar__skills,
+  .siedebar__hobbies {
+    margin-bottom: 25px;
+  }
+  .main__name {
+    font-size: 37px;
+    letter-spacing: 1px;
+  }
+  .main__about,
+  .main__experience,
+  .main__educacion {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 520px) {
+  .siedebar__photo {
+    padding: 10px;
+  }
+  .siedebar {
+    padding-top: 10px;
+  }
+  .main__name {
+    font-size: 30px;
+  }
+  .main__title-img {
+    width: 40px;
+  }
+  .main__title {
+    font-size: 19px;
+  }
+  .main__title-container {
+    margin-bottom: 10px;
+  }
+  .educacion__item:not(:last-child) {
+    margin-bottom: 22px;
+  }
+}
