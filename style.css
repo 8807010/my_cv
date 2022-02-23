@@ -5,9 +5,10 @@
 }
 
 body {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
   background: #f5f7fa;
   padding: 40px 20px;
-  font-family: "Montserrat", sans-serif;
   min-width: 320px;
   color: #3a3939;
 }
@@ -49,6 +50,12 @@ body {
   border-radius: 5px;
   text-transform: uppercase;
   margin-bottom: 30px;
+  transition: all 0.3s ease-in;
+}
+
+.siedebar__title:hover {
+  background-color: #fff;
+  color: #30596b;
 }
 
 .siedebar__contact {
@@ -75,10 +82,6 @@ body {
   margin-right: 10px;
 }
 
-.contact__list {
-  list-style-type: none;
-}
-
 .contact__item {
   display: flex;
   align-items: center;
@@ -93,6 +96,12 @@ body {
   color: #3a3939;
   text-decoration: none;
   display: flex;
+  transition:  all 0.3s ease-in;
+}
+
+.contact__link:hover {
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 .main__contact-siedebar {
@@ -125,7 +134,7 @@ body {
 }
 
 .main__profession {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 900;
   line-height: 170%;
   margin-bottom: 25px;
@@ -142,7 +151,7 @@ body {
 }
 
 .main__description {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 155%;
 }
@@ -180,14 +189,14 @@ body {
   display: block;
   margin-bottom: 6px;
   color: #a8a8a8;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 140%;
   margin-left: -20px;
 }
 
 .educacion__faculty {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 140%;
   margin-left: -20px;
@@ -223,14 +232,14 @@ body {
   display: block;
   margin-bottom: 6px;
   color: #a8a8a8;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 140%;
   margin-left: -20px;
 }
 
 .experience__position {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 140%;
   margin-left: -20px;
@@ -257,6 +266,14 @@ body {
   padding: 5px;
 }
 
+.languages__item {
+  list-style-type: disclosure-closed;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
 @media (max-width: 1160px) {
   .main {
     padding: 35px 50px;
@@ -274,6 +291,10 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 100%;
+  }
+  .contact__link {
+    text-overflow: ellipsis;
+    word-break: break-word;
   }
   .siedebar {
     max-width: 100%;
@@ -306,6 +327,9 @@ body {
     margin: 0 0 20px 0;
     font-size: 20px;
     max-width: 180px;
+  }
+  .siedebar__title:hover {
+    border: 2px solid #30596b;
   }
   .siedebar__contact,
   .siedebar__tech,
