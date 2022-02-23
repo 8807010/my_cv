@@ -96,7 +96,7 @@ body {
   color: #3a3939;
   text-decoration: none;
   display: flex;
-  transition:  all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .contact__link:hover {
